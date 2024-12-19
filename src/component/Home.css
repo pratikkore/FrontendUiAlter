@@ -1,0 +1,11 @@
+.home-container {
+    padding: 20px;
+    background-color: #121212; /* Dark background */
+    color: #e5e5e5; /* Light text */
+    min-height: 100vh;
+  }
+  
+  .chart-section {
+    margin-bottom: 30px; /* Adds spacing between sections */
+  }
+  

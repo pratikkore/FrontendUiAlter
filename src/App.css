@@ -1,0 +1,62 @@
+/* Additional styles for App.js */
+.main-content {
+  margin-left: 250px; /* Default sidebar width */
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar.collapsed + .main-content {
+  margin-left: 60px; /* Adjust for collapsed sidebar */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 60px; /* Default to collapsed sidebar width on small screens */
+  }
+
+  .sidebar.open + .main-content {
+    margin-left: 250px;
+  }
+}
+/* src/global.css */
+body {
+  background-color: #121212;
+  color: #e5e5e5; /* Light text */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+ /* Desktop-specific sidebar settings */
+ @media (min-width: 768px) {
+ 
+
+  /* Adjust the main content to avoid overlap */
+  .main-content {
+    margin-left: 250px; /* Matches the sidebar width */
+    padding: 20px;
+  }
+
+
+}

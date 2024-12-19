@@ -1,0 +1,16 @@
+.population-chart-container {
+    padding: 20px;
+    background-color: #121212; /* Dark background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  }
+  
+  .population-chart-container h2 {
+    color: #e5e5e5; /* Light text for title */
+  }
+  
+  .population-chart-container canvas {
+    max-width: 100%; /* Responsive chart width */
+    height: auto; /* Adjusts height dynamically */
+  }
+  
